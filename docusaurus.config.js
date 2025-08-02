@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Eli Gibbs',
-  tagline: 'My portfolio',
+  tagline: 'My Portfolio and Projects',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -51,10 +51,11 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/eligibbs/my-website/tree/main',
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/posts',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -62,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/eligibbs/my-website/tree/main',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -79,7 +80,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       navbar: {
         title: 'Eli Gibbs',
         logo: {
@@ -91,11 +92,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/posts', label: 'Posts', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/eligibbs/my-website',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,7 +109,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/intro',
               },
             ],
@@ -117,16 +118,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://discord.gg/eligibbs',
               },
             ],
           },
@@ -134,12 +127,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Posts',
+                to: '/posts',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/eligibbs/my-website',
               },
             ],
           },

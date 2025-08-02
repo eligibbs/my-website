@@ -1,25 +1,10 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+eligibbs:
+  name: Eli Gibbs
+  title: Phoenix Limited Founder/CEO
+  url: https://eligibbs.net
+  image_url: https://avatars.githubusercontent.com/u/159532240?s=400&u=ac935e2f7a1bb3e602ca78ec9257c68bbf02e71b&v=4
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    linkedin: eligibbs
+    github: eligibbs
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
