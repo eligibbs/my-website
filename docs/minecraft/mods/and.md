@@ -7,6 +7,7 @@ description:  (Animals Never Die)
 Here, expect to find helpful information about the mod, and what you can do to get started.
 
 ## What is AND?
+AND stands for Animals Never Die. 
 
 First, it might be a good idea to break down what AND is in the first place. AND is primarily a mod to continue the old but gold mod, ZAWA (Zoo and Wild Animals), and to bring it to 1.21.1. It's also my first mod!
 
